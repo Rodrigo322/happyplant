@@ -1,0 +1,22 @@
+.sidebar {
+  width: 60%;
+  background-color: #37C77F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.sidebar img {
+  width: 260px;
+
+}
+
+.sidebar p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #F4FFCC;
+  margin-bottom: 10px;
+}

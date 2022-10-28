@@ -1,0 +1,47 @@
+#page-login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #CEDEE5;
+  display: flex;
+}
+
+#page-login .content {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#page-login .content form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+#page-login .content form h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 34px;
+  color: #52665A;
+  margin-bottom: 10px;
+}
+
+#page-login .content form button {
+  width: 360px;
+  height: 64px;
+  top: 561px;
+  background: #03c262;
+  border-radius: 20px;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-top: 42px;
+  transition: all 0.3s;
+}
+
+#page-login .content form button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
