@@ -112,14 +112,10 @@
   cursor: pointer;
   width: 48px;
   height: 48px;
-
   background: #ebf2f5;
   color: #15c3d6;
-
   border: none;
-
   border-radius: 20px;
-
   display: flex;
   align-items: center;
   justify-content: center;

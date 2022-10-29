@@ -1,0 +1,91 @@
+#page-create-plant {
+  display: flex;
+}
+
+#page-create-plant main {
+  flex: 1;
+}
+
+form.create-plant-form {
+  width: 700px;
+  margin: 64px auto;
+  background: #ffffff;
+  border: 1px solid #d3e2e5;
+  border-radius: 20px;
+  padding: 64px 80px;
+  overflow: hidden;
+}
+
+form.create-plant-form fieldset {
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form.create-plant-form fieldset .input-image label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #52665a;
+  margin-bottom: 10px;
+}
+
+form.create-plant-form fieldset .input-image img {
+  width: 50%;
+
+  object-fit: cover;
+
+  border: 1px dashed #96d2f0;
+  border-radius: 20px;
+}
+
+form.create-plant-form fieldset .input-image .images-container {
+  width: 100%;
+  height: 96px;
+  object-fit: cover;
+  border: 1px dashed #96d2f0;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form.create-plant-form fieldset .input-image input[type="file"] {
+  display: none;
+}
+form.create-plant-form fieldset legend {
+  width: 100%;
+
+  font-size: 32px;
+  line-height: 34px;
+  color: #5c8599;
+  font-weight: 700;
+
+  border-bottom: 1px solid #d3e2e5;
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+}
+
+form.create-plant-form button.confirm-button {
+  margin-top: 64px;
+
+  width: 100%;
+  height: 64px;
+  border: 0;
+  cursor: pointer;
+  background: #3cdc8c;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: 800;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color 0.2s;
+}
+
+form.create-plant-form button.confirm-button:hover {
+  background: #36cf82;
+}

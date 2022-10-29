@@ -14,13 +14,6 @@
   height: 100px;
 }
 
-.home-side .home-buttons {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 175px;
-}
-
 .dash-button + .dash-button {
   margin-top: 12px;
 }

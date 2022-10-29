@@ -6,14 +6,14 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
-  color: #52665A;
+  color: #52665a;
   margin-bottom: 10px;
 }
 .input-group input {
   width: 360px;
   height: 64px;
-  background: #F5F8FA;
-  border: 1px solid #D3E2E5;
+  background: #f5f8fa;
+  border: 1px solid #d3e2e5;
   border-radius: 20px;
   padding: 20px;
 }
